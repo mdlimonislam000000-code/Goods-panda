@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goods Panda</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cnd -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <!-- header section -->
     <section>
-        <header>
+        <header class="first-navber">
             <div>
                 <img src="./assets/logo.png" alt="">
             </div>
@@ -18,5 +33,114 @@
             </div>
         </header>
     </section>
+
+    <!-- hero section  -->
+    <section class="first-hero">
+        <div class="hero-text-box">
+            <h1 class="hero-title">Mi LED TV 4A PRO 32</h1>
+            <p class="hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                consequat duis
+                enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <h3 class="hero-dolar">$1289</h3>
+            <button class="hero-btn">BUY NOW</button>
+        </div>
+
+        <div>
+            <img src="./assets/hero-tv.png" alt="">
+        </div>
+    </section>
+
+    <!-- categories section -->
+    <section id="categories">
+        <div>
+            <h1 class="categories-header">Categories</h1>
+            <div class="categories-container">
+                <div class="first-product-container">
+                    <h4 class="catagory-product-name">Watch</h4>
+                    <img src="./assets/category-watch.png" alt="">
+                </div>
+                <div class="first-product-container1">
+                    <h4 class="catagory-product-name">Bag</h4>
+                    <img src="./assets/category-bag.png" alt="">
+                </div>
+                <div class="first-product-container2">
+                    <h4 class="catagory-product-name">Shoes</h4>
+                    <img src="./assets/category-shoe.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="shoes-container">
+            <h1>Shoes</h1>
+            <div class="shoes-cards">
+                <div class="shoes-card-1">
+                    <img src="./assets/shoe-1.png" alt="">
+                    <h3 class="shoes-header">Reebok Dart Men’s Shoes</h3>
+                    <p class="shoes-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="shoes-prize">$1289</p>
+                    <button class="shoes-btn">BUY NOW <i class="fa-solid fa-right-long"></i></button>
+                </div>
+
+                <div class="shoes-card-1">
+                    <img src="./assets/shoe-2.png" alt="">
+                    <h3  class="shoes-header">Reebok Pump</h3>
+                    <p class="shoes-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="shoes-prize">$799</p>
+                    <button class="shoes-btn">BUY NOW <i class="fa-solid fa-right-long"></i></button>
+                </div>
+
+                <div class="shoes-card-1">
+                    <img src="./assets/shoe-3.png" alt="">
+                    <h3  class="shoes-header">Reebok All Terrain</h3>
+                    <p class="shoes-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="shoes-prize">$699</p>
+                    <button class="shoes-btn">BUY NOW <i class="fa-solid fa-right-long"></i></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="shoes-container">
+            <h1>Backpack</h1>
+            <div class="shoes-cards">
+                <div class="shoes-card-1">
+                    <img src="./assets/bag-1.png" alt="">
+                    <h3 class="shoes-header">Ison Backpack</h3>
+                    <p class="shoes-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="shoes-prize">$1289</p>
+                    <button class="shoes-btn">BUY NOW <i class="fa-solid fa-right-long"></i></button>
+                </div>
+
+                <div class="shoes-card-1">
+                    <img src="./assets/bag-2.png" alt="">
+                    <h3  class="shoes-header"> Biaowang Backpack</h3>
+                    <p class="shoes-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="shoes-prize">$799</p>
+                    <button class="shoes-btn">BUY NOW <i class="fa-solid fa-right-long"></i></button>
+                </div>
+
+                <div class="shoes-card-1">
+                    <img src="./assets/bag-3.png" alt="">
+                    <h3  class="shoes-header">Dxyizu WS54 Smart</h3>
+                    <p class="shoes-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="shoes-prize">$699</p>
+                    <button class="shoes-btn">BUY NOW <i class="fa-solid fa-right-long"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer started -->
+
+    <footer id="footer">
+        <div>
+            <h2 class="footer-head">LET'S STAY IN TOUCH</h2>
+            <p class="footer-discription">Get updates on sales specials and more</p>
+           <div class="input-container">
+             <input type="text" placeholder="Enter your email" class="footer-input"> <button class="hero-btn-2">Send</button>
+           </div>
+        </div>
+    </footer>
 </body>
+
 </html>

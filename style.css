@@ -215,7 +215,7 @@
 
 
 /* responsive 320px */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
     .first-navber {
         padding: 5px;
     }
